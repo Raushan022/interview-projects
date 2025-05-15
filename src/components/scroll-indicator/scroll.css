@@ -1,0 +1,27 @@
+.data-container {
+   align-items: center;
+   justify-items: center;
+   margin-top: 100px;
+}
+
+.top-container {
+   position: fixed;
+   top: 0;
+   z-index: 1;
+   width: 100%;
+   text-align: center;
+   background-color: #b7ef3e;
+   color: #fff;
+}
+
+.scroll-progress-tracking-container {
+   width: 100%;
+   height: 10px;
+   background: #0e1106;
+}
+
+.current-progress-bar {
+   height: 10px;
+   background: #8b02b5;
+   width: 0%;
+}
